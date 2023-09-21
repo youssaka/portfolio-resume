@@ -20,8 +20,7 @@
 	const items = [
 		{ title: NavBar.skills, to: '/skills', icon: Icons.Skills },
 		{ title: NavBar.personal, to: '/projects', icon: Icons.Projects },
-		{ title: NavBar.career, to: '/experience', icon: Icons.Job },
-		{ title: NavBar.resume, to: '/resume', icon: Icons.Resume }
+		{ title: NavBar.career, to: '/experience', icon: Icons.Job }
 	];
 </script>
 
