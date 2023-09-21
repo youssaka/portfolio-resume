@@ -2,7 +2,7 @@ import type { Asset } from '$lib/types';
 import { theme } from '$lib/stores/theme';
 
 const gh = (file: string) =>
-	`https://raw.githubusercontent.com/RiadhAdrani/slick-portfolio-svelte/assets/logos/${file}`;
+	`https://raw.githubusercontent.com/youssaka/portfolio-resume/assets/logos/${file}`;
 
 const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
