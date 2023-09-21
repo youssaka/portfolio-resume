@@ -4,29 +4,29 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'snomekop',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'Native Android Pokedex app using Jetpack compose, Hilt, Paging3, Retrofit and Room. MVVM Architecture',
+		links: [{ to: 'https://github.com/youssaka/snomekop', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: 'Snomekop (Pokedex)',
 		period: {
-			from: new Date()
+			from: new Date(2022, 9, 25)
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
 		type: 'Website Template'
 	},
 	{
-		slug: 'slick-portfolio-svelte',
+		slug: 'deezalarm',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'DeezAlarm is a native Android app that turns your favorite Deezer tracks into your morning alarm..',
+		links: [{ to: 'https://play.google.com/store/apps/details?id=com.loyou.deezalarm', label: 'Playstore' }],
 		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		name: 'Deezalarm',
 		period: {
-			from: new Date()
+			from: new Date(2018, 5, 15)
 		},
 		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
 		type: 'Website Template'
