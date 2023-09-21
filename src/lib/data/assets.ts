@@ -67,7 +67,8 @@ const Assets = {
 	Nuxt: a('nuxt.png'),
 	Vite: a('vite.png'),
 	Vitest: a('vitest.png'),
-	Jest: a('jest.png')
+	Jest: a('jest.png'),
+	DeezAlarm: a('deezalarm.png')
 };
 
 export default Assets;

@@ -9,13 +9,13 @@ const MY_PROJECTS: Array<Project> = [
 		description:
 			'Native Android Pokedex app using Jetpack compose, Hilt, Paging3, Retrofit and Room. MVVM Architecture',
 		links: [{ to: 'https://github.com/youssaka/snomekop', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.Android,
 		name: 'Snomekop (Pokedex)',
 		period: {
 			from: new Date(2022, 9, 25)
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('android', 'kotlin'),
+		type: 'Native Android App'
 	},
 	{
 		slug: 'deezalarm',
@@ -23,13 +23,13 @@ const MY_PROJECTS: Array<Project> = [
 		description:
 			'DeezAlarm is a native Android app that turns your favorite Deezer tracks into your morning alarm..',
 		links: [{ to: 'https://play.google.com/store/apps/details?id=com.loyou.deezalarm', label: 'Playstore' }],
-		logo: Assets.Svelte,
+		logo: Assets.DeezAlarm,
 		name: 'Deezalarm',
 		period: {
 			from: new Date(2018, 5, 15)
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template'
+		skills: getSkills('android', 'kotlin'),
+		type: 'Native Android App'
 	}
 ];
 
