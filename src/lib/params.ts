@@ -42,36 +42,24 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	name: 'Youssouf',
+	lastName: 'Akadiri',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		'I am a passionate developer with a keen sense of curiosity and determination. While I specialize in Android development and Kotlin, I pride myself on being a versatile problem solver, always eager to tackle real-world challenges beyond the confines of platform-specific development.',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/youssaka' },
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
-		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
+			link: 'https://www.linkedin.com/in/youssouf-akadiri-182970a5/'
 		},
 		{
 			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
+			link: 'https://stackoverflow.com/users/9850456/youss'
 		},
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
+			link: 'youss.akadiri@gmail.com'
 		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
-		}
 	]
 };
 
