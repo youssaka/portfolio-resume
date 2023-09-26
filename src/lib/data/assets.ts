@@ -68,7 +68,11 @@ const Assets = {
 	Vite: a('vite.png'),
 	Vitest: a('vitest.png'),
 	Jest: a('jest.png'),
-	DeezAlarm: a('deezalarm.png')
+	DeezAlarm: a('deezalarm.png'),
+	Bryj: a('Bryj.png'),
+	Thales: a('Thales.png'),
+	Idemia: a('Idemia.png'),
+	Fanunit: a('Fanunit.png')
 };
 
 export default Assets;

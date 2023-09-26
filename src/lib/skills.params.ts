@@ -10,6 +10,7 @@ export type ArrayElementType<ArrayType extends readonly unknown[]> =
 const descriptions = {
 	android: 'Android is an open-source mobile operating system developed by Google, primarily used for touchscreen devices. It\'s the world\'s most popular mobile OS, boasting a vast ecosystem of apps available via the Google Play Store.',
 	kotlin: 'Kotlin is a modern, statically-typed programming language that runs on the Java Virtual Machine (JVM). It\'s officially supported by Google for Android development and is known for its concise syntax, interoperability with Java, and enhanced functional programming features.',
+	javascript: 'JavaScript is a versatile, high-level, interpreted programming language primarily known for enabling interactive web pages. It\'s a core component of the web, alongside HTML and CSS, and allows for client-side script to interact with users, control the browser, and asynchronously fetch content. Over time, its capabilities have expanded with the rise of Node.js, making it a dominant choice for both front-end and back-end web development.',
 	java: 'Java is a versatile, object-oriented programming language known for its platform independence. It\'s widely used in various applications, from enterprise software to Android app development, and is supported by a large standard library.',
 	python: 'Python is an interpreted, high-level programming language celebrated for its clear syntax and versatility. It\'s widely used in web development, data analysis, artificial intelligence, scientific computing, and many other domains.',
 	flask: 'Flask is a lightweight, micro web framework written in Python. It\'s designed to make getting started quick and easy, with the ability to scale up to complex applications. Flask offers suggestions but doesn\'t enforce any dependencies or project layout.',
@@ -66,6 +67,13 @@ const MY_SKILLS = [
 		description: descriptions.firebase,
 		logo: Assets.Firebase,
 		name: 'Firebase'
+	}),
+	s({
+		slug: 'javascript',
+		color: 'yellow',
+		description: descriptions.javascript,
+		logo: Assets.JavaScript,
+		name: 'Javascript'
 	})
 ];
 
