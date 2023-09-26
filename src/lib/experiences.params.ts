@@ -24,7 +24,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Osny',
-		period: { from: new Date(2016, 9, 1), to: new Date(2018, 9, 1) },
+		period: { from: new Date(2016, 9, 1), to: new Date(2018, 9, 2) },
 		skills: getSkills('python'),
 		name: 'Support Engineer',
 		color: '#ffffff',
