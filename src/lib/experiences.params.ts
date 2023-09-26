@@ -23,13 +23,13 @@ const MY_EXPERIENCES: Array<Experience> = [
 		description: 'Ensure the operational availability of biometric identification systems for the judicial police, civil systems, and border control systems.',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('android', 'kotlin'),
-		name: 'Freelancer',
+		location: 'Osny',
+		period: { from: new Date(2016, 9, 1), to: new Date(2018, 9, 1) },
+		skills: getSkills('python'),
+		name: 'Support Engineer',
 		color: '#ffffff',
 		links: [],
-		logo: Assets.Unknown
+		logo: Assets.Idemia
 	}
 ];
 
