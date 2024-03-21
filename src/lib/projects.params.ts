@@ -30,6 +30,20 @@ const MY_PROJECTS: Array<Project> = [
 		},
 		skills: getSkills('android', 'kotlin'),
 		type: 'Native Android App'
+	},
+	{
+		slug: 'fanunit',
+		color: '#ff3e00',
+		description:
+			'Fanunit is a "Walk to Earn" type application that encourages you to walk daily to earn exclusive discounts on our marketplace. This application aims to motivate you to walk and adopt a regular walking routine.',
+		links: [{ to: 'https://play.google.com/store/apps/details?id=com.fanunit.app&hl=ln', label: 'Playstore' }],
+		logo: Assets.Fanunit,
+		name: 'Fanunit',
+		period: {
+			from: new Date(2023, 5, 15)
+		},
+		skills: getSkills('android', 'kotlin'),
+		type: 'Kotlin Multiplatform App'
 	}
 ];
 
